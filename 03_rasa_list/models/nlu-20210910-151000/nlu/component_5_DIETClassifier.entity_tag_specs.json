@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-task",
+      "2": "I-task",
+      "3": "L-task",
+      "4": "U-task",
+      "5": "B-task_id",
+      "6": "I-task_id",
+      "7": "L-task_id",
+      "8": "U-task_id",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-task": 1,
+      "I-task": 2,
+      "L-task": 3,
+      "U-task": 4,
+      "B-task_id": 5,
+      "I-task_id": 6,
+      "L-task_id": 7,
+      "U-task_id": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

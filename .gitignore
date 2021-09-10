@@ -3,3 +3,7 @@
 *.tar.gz
 *.pyc
 __pycache__
+
+02_chatterbot/.venv
+
+04_rasa_bot/models/20210910-110253

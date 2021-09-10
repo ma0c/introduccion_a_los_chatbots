@@ -1,0 +1,27 @@
+version: "2.0"
+
+rules:
+
+- rule: Despedirse cuando el usuario se despida
+  steps:
+  - intent: goodbye
+  - action: utter_adios
+
+- rule: Decir soy un robot cuando el usuario pregunte
+  steps:
+  - intent: bot_challenge
+  - action: utter_soy_un_robot
+
+- rule: Activar suscripcion
+  steps:
+  - intent: suscribirse
+  - action: correo_form
+  - active_loop: correo_form
+
+- rule: Enviar suscripcion
+  condition:
+  - active_loop: correo_form
+  steps:
+  - action: correo_form
+  - active_loop: null
+  - action: utter_suscrito
