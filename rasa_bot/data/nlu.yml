@@ -1,0 +1,94 @@
+version: "2.0"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hey
+    - hola
+    - oli
+    - como vas?
+    - buenos dias
+    - buenas tardes
+    - buenas noches
+    - hola tu
+    - como vamos
+    - que se dice
+    - como andamos
+    - hablamelo
+    - saludos
+
+- intent: despedida
+  examples: |
+    - hasta luego
+    - chao
+    - se cuida
+    - nos vemos mas rato
+    - buenas noches
+    - adios
+    - suerte
+    - ten lindo dia
+
+- intent: afirmacion
+  examples: |
+    - si
+    - claro
+    - aja
+    - por supuesto
+    - suena bien
+    - correcto
+    - de una
+
+- intent: negacion
+  examples: |
+    - no
+    - nonas
+    - nunca
+    - no creo
+    - no me gusta
+    - no realmente
+    - ni cagando
+    - nah
+
+- intent: buen_animo
+  examples: |
+    - perfecto
+    - great
+    - maravilloso
+    - me siento como un rey
+    - asombroso
+    - me siento bien
+    - soy genial
+    - soy maravilloso
+    - voy a conquistar el mundo
+    - super
+    - extremadamente bueno
+    - excelente
+    - muy bien
+
+- intent: mal_animo
+  examples: |
+    - mi dia estuvo horrible
+    - estoy triste
+    - no me siento bien
+    - me siento decepcionado
+    - muy triste
+    - me siento muy mal
+    - triste
+    - muy triste
+    - infeliz
+    - no estoy bien
+    - no estoy muy bien
+    - extremadamente triste
+
+- intent: eres_robot
+  examples: |
+    - eres un robot?
+    - eres un humano?
+    - estoy hablando con un robot?
+    - estoy hablando con un humano?
+
+- intent: suscribirse
+  examples: |
+    - suscribirme
+    - quiero recibir correos
+    - guardame
