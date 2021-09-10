@@ -4,6 +4,7 @@ Codigo correspondiente a la presentacion de Introduccion a los Chatbos en le mar
 
 En este repositorio encontraras
 
+-[presentacion.pdf](presentacion.pdf): Diapositivas de la charla
 -[01_reglas](01_reglas): Una lista de tareas hecha con reglas
 -[02_chatterbot](02_chatterbot): Un bot conversacional usando Chatterbot
 -[03_rasa_list](03_rasa_list): Una re implementacion de la lista de tareas usando [Rasa](https://rasa.com/)
